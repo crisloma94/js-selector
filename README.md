@@ -8,4 +8,4 @@ Install dependencies from project root with `npm install`
 
 # Start development server with
 
-`npm run dev`
+`npm run start`

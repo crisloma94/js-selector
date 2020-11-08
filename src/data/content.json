@@ -1,0 +1,23 @@
+{
+    "options": [
+      {
+        "id": "1",
+        "data": {
+            "content": "(1) This is the first option content"
+        }
+      },
+      {
+        "id": "2",
+        "data": {
+            "content": "(2) This is the second option content"
+        }
+      },
+      {
+        "id": "3",
+        "data": {
+            "content": "(3) This is the third option content"
+        }
+      }
+    ]
+  }
+  

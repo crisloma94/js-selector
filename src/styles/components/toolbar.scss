@@ -1,1 +1,25 @@
 @import "./../vars";
+
+#toolbar {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+  background-color: $light-color;
+  .option {
+    width: 24%;
+    text-align: center;
+    background-color: $background-color;
+    color: $base-color;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.selected {
+      font-weight: $medium-weight;
+      background-color: $base-color;
+      color: $background-color;
+    }
+  }
+}

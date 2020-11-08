@@ -2,31 +2,28 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: $background-color;
-  margin: 0;
-}
-
-.box {
-  box-shadow: 1px 1px 5px lightgrey;
-  border-radius: 5px;
   background-color: $light-color;
+  margin: 0;
 }
 
 .page {
   display: grid;
   grid-template:
     "top" 50px
+    "progressBar" 2px
     "content" auto
     / minmax(400px, 100%);
   height: 100vh;
   min-height: 500px;
   .top {
     grid-area: top;
-    background-color: lightblue;
+    background-color: $background-color;
   }
-
+  .progress-bar {
+    grid-area: progressBar;
+  }
   .content {
     grid-area: content;
-    background-color: lightcoral;
+    background-color: $background-color;
   }
 }
